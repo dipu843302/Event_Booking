@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Event Booking Form"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"/>
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="368dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="First Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="368dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Last Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="368dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Email id"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/mob"
+        android:layout_width="368dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Mobile Number"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="368dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Next"
+        android:textStyle="bold"
+        app:backgroundTint="@color/cardview_dark_background"
+      />
+
+</LinearLayout>
